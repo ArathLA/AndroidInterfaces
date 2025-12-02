@@ -1,17 +1,17 @@
 # AndroidInterfaces - Programa de Desarrollo de Interfaces de Usuario
 
-## 📋 Descripción
+Descripción
 
 Programa informático que demuestra el desarrollo de interfaces de usuario con acceso a datos, utilizando controles Android y programación de eventos. Este proyecto implementa un sistema completo de interfaces responsivas con manejo de eventos, excepciones y acceso a datos mediante SQLite, API REST y SharedPreferences.
 
-## 🎯 Objetivos del Proyecto
+Objetivos del Proyecto
 
 Identificar y aplicar la sintaxis del lenguaje de programación de desarrollo de eventos en el funcionamiento de interfaces de usuario:
 - Manipulación de eventos (onClick, onLongClick, onTextChanged, onFocusChanged, onItemClick, onItemSelected)
 - Manejo de excepciones (SQLException, IOException, Exception)
 - Acceso a datos (CRUD, API REST, Preferencias, Caché)
 
-## ✨ Características Principales
+Características Principales
 
 ### Interfaces de Usuario - 6 Pantallas Funcionales
 
@@ -339,8 +339,7 @@ public class RetrofitClient {
     }
 }
 ```
-
-#### 3. Manejo de Preferencias (SharedPreferences)
+Manejo de Preferencias (SharedPreferences)
 
 ```java
 // Guardar preferencias
@@ -362,7 +361,7 @@ int volumen = preferences.getInt("volumen", 50);
 String idioma = preferences.getString("idioma", "espanol");
 ```
 
-#### 4. Sistema de Caché
+Sistema de Caché
 
 ```java
 // En ApiActivity
@@ -386,7 +385,7 @@ private void limpiarCache() {
 }
 ```
 
-## 🛠️ Tecnologías Utilizadas
+Tecnologías Utilizadas
 
 ### Lenguaje de Programación
 - **Java 11**: Lenguaje principal para desarrollo Android
@@ -428,7 +427,7 @@ dependencies {
 
 - **JSONPlaceholder**: API REST pública para pruebas (https://jsonplaceholder.typicode.com)
 
-## 📦 Instalación
+Instalación
 
 ### Prerrequisitos
 
@@ -479,16 +478,16 @@ O desde Android Studio: `Build > Make Project`
 2. Crea un nuevo dispositivo virtual (AVD) si no tienes uno
    - Dispositivo recomendado: Pixel 9 Pro
    - System Image: Android 14 (API 36)
-3. Haz clic en el botón "Run" (▶️) o presiona `Shift + F10`
+3. Haz clic en el botón "Run"  o presiona `Shift + F10`
 
 **Opción B: En un Dispositivo Físico**
 1. Habilita el modo desarrollador en tu dispositivo
 2. Habilita la depuración USB
 3. Conecta tu dispositivo por USB
 4. Acepta la depuración USB en el dispositivo
-5. Haz clic en el botón "Run" (▶️)
+5. Haz clic en el botón "Run"
 
-## 🏭 Estructura del Proyecto
+Estructura del Proyecto
 
 ```
 AndroidInterfaces/
@@ -537,7 +536,7 @@ AndroidInterfaces/
 └── README.md
 ```
 
-## 🚀 Cómo Funciona la Aplicación
+Cómo Funciona la Aplicación
 
 ### Flujo de Navegación
 ```
